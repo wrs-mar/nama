@@ -30,8 +30,8 @@ apt install elasticsearch
 
 systemctl start elasticsearch
 
-# Acesse o diretório  descompactado 'upload' e execute o arquivo upload.py, os processos de: carregamento, análise, transformação, validação do tipo de dado e gravação no banco
-# serão executados. O arquivo 'upload.py' é aberto, logo disponível para análise.
+Acesse o diretório  descompactado 'upload' e execute o arquivo upload.py, os processos de: carregamento, análise, transformação, validação do tipo de dado e gravação no banco
+serão executados. O arquivo 'upload.py' é aberto, logo disponível para análise.
 
 
 Execute o comando no terminal para visualizar dos dados gravados no banco de dados.
