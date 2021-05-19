@@ -2,7 +2,7 @@
 
 # Instalar python 3.8
 
-sudo apt update
+sudo apt update &&
 sudo apt -y upgrade
 
 # Instalar pip3
