@@ -12,14 +12,18 @@ apt install python3-pip
 # Instalar as bibliotecas 
 
 pip3 install pandas
+
 pip3 install numpy
+
 pip3 install elasticsearch
 
 # Instalar elasticsearch
 curl -fsSL https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 
 echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
+
 sudo apt update
+
 apt install elasticsearch
 
 # Inicie o serviço do elasticsearch
